@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="thumbnails">
+            <img src="https://images.pexels.com/photos/80453/poppy-field-of-poppies-flower-flowers-80453.jpeg?cs=srgb&dl=pexels-pixabay-80453.jpg&fm=jpg" alt="Image 1" onclick="showImage('image 1.jpg')" height="300">
+            <img src="https://cdn.pixabay.com/photo/2023/11/16/15/17/sea-8392560_640.jpg" alt="Image 2" onclick="showImage('Image 2.jpg')"height="300">
+            <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1720051200&semt=sph alt="Image 3" onclick="showImage('image3.jpg')"height="300">
+            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg alt="Image 4" onclick="showImage('image 4.jpg')" height="300">
+            <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg "alt="Image 5" onclick="showImage('Image 5.jpg')"height="300">
+            <img src="https://res.cloudinary.com/jerrick/image/upload/v1707195361/65c1bbe184fa66001d1faa64.jpg "alt="Image 6" onclick="showImage('Image 6.jpg')"height="300">
+        </div>
+        <div class="main-image">
+            <img id="https://images.pexels.com/photos/80453/poppy-field-of-poppies-flower-flowers-80453.jpeg?cs=srgb&dl=pexels-pixabay-80453.jpg&fm=jpg" src="" alt="Current Image">
+        </div>
+        <div class="navigation">
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
